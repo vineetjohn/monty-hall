@@ -27,4 +27,4 @@ num_exp = 1000000
 wins = 0
 for _ in range(num_exp):
     wins += play_game()
-assert round(wins/num_exp, 2) == 0.66
+assert round(wins/num_exp, 2) == 0.67
